@@ -104,7 +104,7 @@ xs4 = 79/9*exp(-3/2*t);
 plot(t,xx4,'g', 'LineWidth',3);
 plot(t,xx1,'b --', 'LineWidth',3);
 plot(t,xs4,'r --', 'LineWidth',3);
-legend( 'x(t)=-79/9*exp(-3/2*t)+20/9','x0(t) = 20/9 ','x(t)=-79/9*exp(-3/2*t)',FontSize=15);
+legend( 'x(t)=79/9*exp(-3/2*t)+20/9','x0(t) = 20/9 ','x(t)=-79/9*exp(-3/2*t)',FontSize=15);
 %title('Warunek początkowy x(0)=11')
 
 

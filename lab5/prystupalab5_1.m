@@ -15,6 +15,7 @@ ts = 10;
 tabelaksi=[0.2,0.4,0.6,0.8];
 
 
+
 % for i=1:4
 % 
 %     figure(1);grid on, hold on; 
@@ -87,13 +88,17 @@ tabelaksi=[0.2,0.4,0.6,0.8];
 
 omega1 = [12,6,4,3];
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%NIE DZIAŁA TAK JAK POWINNO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 for i=1:4
     % \xi * \omega = const;
 
     figure(5);grid on, hold on;
     set(gca, 'FontSize', 15, 'FontWeight','bold');
     ksi=tabelaksi(i);
-    b=omega(1)^2;
+    b=omega(i)^2;
     w=omega1(i);
 
 
@@ -122,5 +127,6 @@ for i=1:4
     ylabel('Im',FontSize=15);
 
 end
+
 
 hold off;
