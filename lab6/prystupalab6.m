@@ -22,8 +22,8 @@ Aw2=0.9;
 H2=5;
 
 %wspolczynniki
-a1=sqrt(2*g*Aw1^2);
-a2=sqrt(2*g*Aw2^2);
+a1=sqrt((2*g*Aw1^2)/H1^2);
+a2=sqrt((2*g*Aw2^2)/H2^2);
 
 %maksymalne przepływy
 fwmax1=a1*H1;
