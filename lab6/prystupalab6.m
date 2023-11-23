@@ -28,14 +28,18 @@ a2=sqrt((2*g*Aw2^2)/H2^2);
 %maksymalne przepływy
 fwmax1=a1*H1;
 fwmax2=a2*H2;
+ 
+% dfw1=0.1*fwmax1;
+% fw2=0.1*fwmax1;
+% dfw2=0;  
 
-dfw1=0.1*fwmax1;
-fw2=0.1*fwmax1;
-dfw2=0;  
+dfw2=0.1*fwmax1;
+fw1=0.1*fwmax1;
+dfw1=0;
 
 tabFw1=[0, 0.5*fwmax1, 0.9*fwmax1];
 for i=1:3;
-fw1=tabFw1(i);
+fw2=tabFw1(i);
 
 
     
