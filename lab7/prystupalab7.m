@@ -42,6 +42,7 @@ fw1=tabFw1(i);
 %punkty równowagi
 H02=(fw1+fw2)/a2;
 H01=(fw1)/a1+H02;
+
 [t] = sim('prystupalab7_si.slx',ts);
 
     figure(1);grid on, hold on; 
